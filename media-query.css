@@ -11,31 +11,23 @@ grandes telas: acima de 1200px
 
 @media screen and (max-width: 768px) {
 
-    header{
-        background-color: #083162;
-        color: white;
-    }
 
-    .header-block {
-        position: relative;
-    }
-
-    .header-block > #logo > h1 {
-        color: white;
-    }
     .header-block > nav {
-        background-color: rgb(7, 29, 70);
-        width: 40vw;
-        position: relative;
-        float: left;
+        display: none;
     }
-    .header-block > nav a {
-        display: block;
-        color: white;
-        width: 90%;
-        padding: 20px;
-        margin: 0px;
+
+    main > .home-start-block > #home-start {
+        background-image: url(imagens/background-cafe_p4.png);
+        background-attachment: fixed;
     }
+
+    main > .home-start-block > #home-start > p {
+        font-size: 2.4em;
+        max-width: 510px;
+        margin: 0px 0px;
+
+    }
+
     section .content{
         flex-flow: column nowrap;
         margin-bottom: 5px;
@@ -44,16 +36,50 @@ grandes telas: acima de 1200px
     .content > img {
         align-self: center;
         width: 90vw;
-        max-width: 100vw;
+        max-width: 90vw;
     }
 
     .content > .text {
-        margin-top: 8vw 0px;
-        text-align: center;
+        box-shadow: none;
     }
 
+    #b2 > .content {
+        margin-bottom: 0px;
+    }
+
+    .text > h1 {
+        font-size: 4em;
+    }
     .text > p {
-        max-width: 550px;
+        text-align: center;
+        font-size: 2.5em;
+        max-width: 600px;
         padding: 20px;
+    }  
+    .text > a {
+        font-size: 1.7em;
+        padding: 20px;
+        width: 250px;
+        border-radius: 45px;
+        margin: 20px auto 70px auto;
+    }
+
+    section > #white-mid {
+        background-image: url(imagens/mid-cafe_p6.png);
+        background-attachment: fixed;
+    }
+
+    #white-mid > #text {
+        height: 480px;
+    }
+
+    #white-mid > #text > h1 {
+        font-size: 0.9em;
+    }
+
+    #white-mid > #text > p {
+        font-size: 0.9em;
+        max-width: 400px;
+        text-align: justify;
     }
 }
