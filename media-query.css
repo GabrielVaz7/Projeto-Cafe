@@ -12,7 +12,6 @@ grandes telas: acima de 1200px
 
     .content > .text > p{
         font-size: 2em;
-        border: 1px solid rebeccapurple;
     }
 
     .content > img {
