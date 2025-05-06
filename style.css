@@ -92,7 +92,7 @@ main > .home-start-block {
 }
 
 main > .home-start-block > #home-start {
-    background-image: url(imagens/background-cafe.png);
+    background-image: url(imagens/background-cafe3.png);
     background-repeat: no-repeat;
     min-height: 600px;
     background-color: #603b28;
@@ -121,6 +121,7 @@ main > section {
 
 #b2 {
     background-color: #083f62;
+    margin-bottom: 0px;
 }
 
 #b3 {
@@ -187,11 +188,11 @@ main > section {
 }
 
 section > #white-mid {
-    background-image: url(imagens/mid-cafe.png);
-    height: 600px;
-    background-position: top right;
+    background-image: url(imagens/white-mid_G.png);
+    background-attachment: fixed;
+    height: 1000px;
+    background-position: center right;
     background-repeat: no-repeat;
-    max-width: 1300px;
     margin: auto;
     font-family: var(--standard-font);
 }
@@ -201,9 +202,9 @@ section > #white-mid {
     color: #737070;
     max-width: 550px;
     padding: 20px;
-    font-size: 2.5em;
-    margin-left: 40px;
-    height: 600px;
+    font-size: 2.3em;
+    margin-left: 70px;
+    height: 1000px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -219,10 +220,11 @@ section > #white-mid {
 
 
 footer {
+    font-family: Arial, Helvetica, sans-serif;
     height: 100px;
     background-color: #06203f;
     text-align: center;
     line-height: 100px;
     color: white;
-    font-size: 1.3em;
+    font-size: 1em;
 }

@@ -8,7 +8,7 @@ grandes telas: acima de 1200px
 
 */
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
     .content > .text > p{
         font-size: 2em;
@@ -23,6 +23,20 @@ grandes telas: acima de 1200px
         padding: 10px;
         font-size: 1em;
     }
+
+    section > #white-mid > #text {
+        padding: 0px;
+        margin: 70px;
+    }
+
+    section > #white-mid > #text > h1 {
+        font-size: 1.3em;
+    }
+
+    section > #white-mid > #text > p {
+        font-size: 0.9em;
+    }
+
 
 }
 
@@ -41,6 +55,10 @@ grandes telas: acima de 1200px
 
     }
 
+    .content > img {
+        margin: 10px 0px 10px 10px;
+    }
+
     .content > .text {
         box-shadow: none;
     }
@@ -52,7 +70,15 @@ grandes telas: acima de 1200px
     .text > a {
         margin: 15px auto 0px auto;
     }
-    
+
+    section > #white-mid {
+        background-image: url(imagens/white-mid_M.png);
+    }   
+
+    #white-mid > #text > p {
+        font-size: 0.7em;
+        max-width: 600px;
+    }
 }
 
 
@@ -107,28 +133,29 @@ grandes telas: acima de 1200px
         margin: 20px;
     }  
     .text > a {
-        font-size: 1.7em;
-        padding: 20px;
-        width: 250px;
-        border-radius: 45px;
+        font-size: 1.2em;
+        padding: 10px 0px;
+        width: 160px;
+        border-radius: 55px;
         margin: 20px auto 70px auto;
     }
 
     section > #white-mid {
-        background-image: url(imagens/mid-cafe_p6.png);
+        background-image: url(imagens/white-mid_P.png);
         background-attachment: fixed;
     }
 
     #white-mid > #text {
-        height: 480px;
+        height: 1000px;
+        margin: 0px;
     }
 
     #white-mid > #text > h1 {
-        font-size: 0.9em;
+        font-size: 1.3em;
     }
 
     #white-mid > #text > p {
-        font-size: 0.9em;
+        font-size: 0.6em;
         max-width: 400px;
         text-align: justify;
     }
