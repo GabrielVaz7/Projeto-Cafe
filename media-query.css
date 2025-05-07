@@ -43,7 +43,7 @@ grandes telas: acima de 1200px
 @media screen and (max-width: 992px) {
 
     main > .home-start-block > #home-start {
-        background-image: url(imagens/background-cafe-m3.png);
+        background-image: url(imagens/background-cafe_m.png);
         background-attachment: fixed;
     }
 
@@ -90,7 +90,7 @@ grandes telas: acima de 1200px
     }
 
     main > .home-start-block > #home-start {
-        background-image: url(imagens/background-cafe_p1.png);
+        background-image: url(imagens/background-cafe_p.png);
     }
 
     main > .home-start-block > #home-start > p {
